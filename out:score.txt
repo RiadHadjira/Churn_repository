@@ -1,0 +1,12 @@
+### Baseline Model (Sans ajustements) ###
+F1-score: 0.57
+Accuracy: 0.86
+
+### Modèle avec class_weight='balanced' ###
+F1-score: 0.56
+Accuracy: 0.87
+
+### Modèle avec ajustement du seuil (threshold=0.3) ###
+F1-score: 0.61
+Accuracy: 0.83
+
