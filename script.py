@@ -65,3 +65,4 @@ with open(score_path, "w") as f:
 
 # Retourner le chemin du fichier score.txt
 score_path
+
