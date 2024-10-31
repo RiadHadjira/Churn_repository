@@ -51,7 +51,7 @@ Des améliorations ont été apportées pour optimiser le modèle :
 
 - **Cloner le dépôt** :
 
-git clone [URL-du-repository]
+git clone https://github.com/RiadHadjira/Churn_repository
 
 - **Installer les dépendances** : Installez les bibliothèques requises avec :
 
