@@ -33,14 +33,14 @@ Pour la version de base du modèle :
 - **Caractéristiques utilisées** : Toutes les caractéristiques disponibles sauf CustomerId, Surname, et RowNumber.
 - **Pré-traitement** : Encodage des variables catégorielles (Geography, Gender), normalisation des valeurs numériques, gestion des valeurs manquantes.
 - **Modèle initial** : Un modèle RandomForest sans ajustements particuliers a été utilisé pour obtenir une première version.
-- **Métrique obtenue** : F1-score de XX% sur l'ensemble de test.
+- **Métrique obtenue** : F1-score de 57% sur l'ensemble de test.
 
 ## 	Première itération
 Des améliorations ont été apportées pour optimiser le modèle :
 
 - **Modifications** : Ajustement du seuil de décision, utilisation de class_weight='balanced', et application de SMOTE pour équilibrer les classes.
 - **Pourquoi ces changements** : Le dataset présentait un déséquilibre de classes, rendant difficile la prédiction du churn avec précision. L'ajustement du seuil et l'utilisation de SMOTE ont permis d'améliorer la détection des clients à risque.
-- **Impact sur les métriques** : Après optimisation, le F1-score a atteint XX%, ce qui représente une amélioration de YY% par rapport à la baseline.
+- **Impact sur les métriques** : Après optimisation, le F1-score a atteint 61%, ce qui représente une amélioration de 4% par rapport à la baseline.
 
 ## 	Fonctionnalités de l'Application
 - **Prédiction du Churn** : Entrez le numéro d’un client et obtenez instantanément une prédiction sur son risque de churn (churner ou non) avec une probabilité associée.
