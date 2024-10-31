@@ -57,6 +57,3 @@ La réponse est au format JSON et contient :
 - Les valeurs des paramètres doivent être fournies dans le bon type (par exemple, `Balance` et `EstimatedSalary` en `float`, `Age` en `int`).
 - Le modèle de prédiction est entraîné pour des données spécifiques, et les résultats peuvent varier en fonction de l'optimisation et des mises à jour du modèle.
 
----
-
-Cette documentation est conçue pour faciliter l'interaction avec l'API et donner aux développeurs les informations nécessaires pour intégrer le service de prédiction de churn.
