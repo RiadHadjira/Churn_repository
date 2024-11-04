@@ -94,4 +94,4 @@ Un script script.py est inclus pour une utilisation simplifiée :
 
 ## 	Auteurs
 
-Développé par Elias Pianko Hadjira Riad.  
+Développé par Elias Pianko et Hadjira Riad.  
